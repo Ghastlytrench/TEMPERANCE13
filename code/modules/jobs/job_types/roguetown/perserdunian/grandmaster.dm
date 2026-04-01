@@ -45,7 +45,7 @@
 	head = /obj/item/clothing/head/roguetown/helmet/leather/grandmaster
 	mask = /obj/item/clothing/mask/rogue/gasmask/grandmask
 	neck = /obj/item/clothing/neck/roguetown/chaincoif
-	belt = /obj/item/storage/belt/rogue/leather/black
+	belt = /obj/item/storage/belt/rogue/leather/black/soldier
 	beltl = /obj/item/flashlight/flare/torch/lantern
 	beltr = /obj/item/gun/ballistic/revolver/grandmaster
 	wrists = /obj/item/scomstone/garrison
@@ -55,14 +55,12 @@
 	backr = /obj/item/storage/backpack/rogue/backpack/perserdun
 	backpack_contents = list(
 		/obj/item/ammo_box/speedloader/magnum = 6,
-		/obj/item/rogueweapon/huntingknife/idagger/steel,
 		/obj/item/storage/belt/rogue/pouch/coins/rich,
-		/obj/item/reagent_containers/glass/bottle/rogue/healthpotnew,
 	)
 	H.adjust_skillrank(/datum/skill/combat/wrestling, 2, TRUE)
 	H.adjust_skillrank(/datum/skill/craft/crafting, 3, TRUE)
 	H.adjust_skillrank(/datum/skill/combat/unarmed, 2, TRUE)
-	H.adjust_skillrank(/datum/skill/combat/swords, 3, TRUE)
+	H.adjust_skillrank(/datum/skill/combat/swords, 2, TRUE)
 	H.adjust_skillrank(/datum/skill/combat/knives, 2, TRUE)
 	H.adjust_skillrank(/datum/skill/misc/swimming, 2, TRUE)
 	H.adjust_skillrank(/datum/skill/misc/climbing, 3, TRUE)

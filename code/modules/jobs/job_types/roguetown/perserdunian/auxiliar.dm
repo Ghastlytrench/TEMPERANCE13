@@ -41,12 +41,12 @@
 	beltl = /obj/item/flashlight/flare/torch/lantern
 	id = /obj/item/roguekey/perserdun
 	armor = /obj/item/clothing/suit/roguetown/armor/brigandine/light
-	cloak = /obj/item/clothing/cloak/perserduntabard
+	cloak = /obj/item/clothing/cloak/perserduntrenchcoat
 	pants = /obj/item/clothing/under/roguetown/trou/artipants
 	mask = /obj/item/clothing/mask/rogue/gasmask/perserdunmask
 	wrists = /obj/item/scomstone/garrison
 	neck = /obj/item/clothing/neck/roguetown/chaincoif
-	belt = /obj/item/storage/belt/rogue/leather/black
+	belt = /obj/item/storage/belt/rogue/leather/black/soldier
 	beltr = /obj/item/storage/belt/rogue/pouch/stim
 	head = /obj/item/clothing/head/roguetown/helmet/sallet/visored/iron
 	gloves = /obj/item/clothing/gloves/roguetown/leather/latex
@@ -58,11 +58,12 @@
 		/obj/item/storage/belt/rogue/pouch/coins/poor,
 		/obj/item/gasgrenade = 2,
 		/obj/item/natural/cloth,
+		/obj/item/rogueweapon/sword/iron/short,
 	)
 	H.adjust_skillrank(/datum/skill/misc/medicine, 4, TRUE)
 	H.adjust_skillrank(/datum/skill/combat/wrestling, 2, TRUE)
 	H.adjust_skillrank(/datum/skill/combat/unarmed, 2, TRUE)
-	H.adjust_skillrank(/datum/skill/combat/swords, 3, TRUE)
+	H.adjust_skillrank(/datum/skill/combat/swords, 2, TRUE)
 	H.adjust_skillrank(/datum/skill/combat/knives, 2, TRUE)
 	H.adjust_skillrank(/datum/skill/misc/swimming, 2, TRUE)
 	H.adjust_skillrank(/datum/skill/misc/climbing, 3, TRUE)

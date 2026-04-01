@@ -7,6 +7,8 @@
 	eject_sound = 'sound/blank.ogg'
 	fire_sound_volume = 90
 	dry_fire_sound = 'sound/blank.ogg'
+	dist_fire_sound = DISTANTLIGHT
+	far_volume = 30 //60 max, default 50. pistols are quieter than revolvers to give them slight differentiation
 	casing_ejector = FALSE
 	internal_magazine = TRUE
 	bolt_type = BOLT_TYPE_NO_BOLT
@@ -70,7 +72,7 @@
 
 /obj/item/gun/ballistic/rifle/repeater/pistol 
 	name = "SiR 'Harland'"
-	desc = "A clip-loaded pistol. Mass produced, and issued to Risvon Soldats. Requires manual cocking."
+	desc = "A clip-loaded pistol. Mass produced, and issued to Risvon Soldats."
 	icon_state = "pocketpistol"
 	item_state = "pocketpistol"
 	w_class = WEIGHT_CLASS_SMALL
@@ -81,6 +83,8 @@
 	fire_sound = PISTOLSHOT
 	load_sound = 'sound/combat/ranged/clipload.ogg'
 	recoil = 0.15
+	slot_flags = ITEM_SLOT_HIP
+	semi_auto = TRUE
 
 /obj/item/gun/ballistic/rifle/repeater/jackal 
 	name = "SPR 'Jackal'"
@@ -97,7 +101,7 @@
 	eject_sound = 'sound/combat/ranged/pistol_magout.ogg'
 	recoil = 0.15
 	semi_auto = TRUE
-
+	slot_flags = ITEM_SLOT_HIP
 
 /obj/item/gun/ballistic/rifle/repeater/commandant
 	name = "ANL 'Liberation'"
@@ -114,3 +118,84 @@
 	recoil = 0.15
 	semi_auto = TRUE
 	slot_flags = ITEM_SLOT_BACK
+
+/obj/item/gun/ballistic/pistol/fury
+	name = "XOZ 'Fury'"
+	desc = "A rather rare semi-auto pistol."
+	icon_state = "colt"
+	item_state = "colt"
+	w_class = WEIGHT_CLASS_SMALL
+	mag_type = /obj/item/ammo_box/magazine/fury
+	slowdown = 0.15
+	spread = 0.5
+	force = 25 //heavy pistol, should be good for whipping someone in the head with
+	fire_sound = PISTOLSHOT
+	load_sound = 'sound/combat/ranged/pistol_magin.ogg'
+	eject_sound = 'sound/combat/ranged/pistol_magout.ogg'
+	recoil = 0.15
+	semi_auto = TRUE
+
+/obj/item/gun/ballistic/pistol/broomhandle
+	name = "KR 'Trenchsweeper'"
+	desc = "Heavy and uncomfortable, almost requiring two hands to pull this thing up. Engraved with a golden 'KR'. Loads rifle rounds"
+	icon_state = "broomhandle"
+	item_state = "broomhandle"
+	w_class = WEIGHT_CLASS_SMALL
+	mag_type = /obj/item/ammo_box/magazine/internal/boltaction/broomhandle
+	slowdown = 0.25 //BIG pistol
+	spread = 0.5
+	force = 25 //heavy pistol, should be good for whipping someone in the head with
+	fire_sound = PISTOLSHOT
+	load_sound = 'sound/combat/ranged/pistol_magin.ogg'
+	eject_sound = 'sound/combat/ranged/pistol_magout.ogg'
+	recoil = 0.2 //make it FEEL uncomfortable
+	semi_auto = TRUE
+	slot_flags = ITEM_SLOT_BACK
+
+/obj/item/gun/ballistic/pistol/luger
+    name = "KR 'Confessor'"
+    desc = "You know, they say that these guns are unique to King's Row - coming from an Outlet that hasn't been discovered by either of the two Nations."
+    icon_state = "luger"
+    item_state = "luger"
+    w_class = WEIGHT_CLASS_SMALL
+    mag_type = /obj/item/ammo_box/magazine/luger
+    slowdown = 0.15
+    spread = 0.5
+    force = 15 
+    fire_sound = PISTOLSHOT
+    load_sound = 'sound/combat/ranged/pistol_magin.ogg'
+    eject_sound = 'sound/combat/ranged/pistol_magout.ogg'
+    recoil = 0.15
+    semi_auto = TRUE
+
+/obj/item/gun/ballistic/pistol/offiseroluger
+    name = "ZOM 'Galinha'"
+    desc = "Straight from the Machine."
+    icon_state = "officerluger"
+    item_state = "officerluger"
+    w_class = WEIGHT_CLASS_SMALL
+    mag_type = /obj/item/ammo_box/magazine/luger
+    slowdown = 0.15
+    spread = 0.5
+    force = 15 
+    fire_sound = PISTOLSHOT
+    load_sound = 'sound/combat/ranged/pistol_magin.ogg'
+    eject_sound = 'sound/combat/ranged/pistol_magout.ogg'
+    recoil = 0.15
+    semi_auto = TRUE
+
+/obj/item/gun/ballistic/pistol/artyluger
+    name = "KR 'Preacher'"
+    desc = "In-house modification of a Confessor, rather expensive."
+    icon_state = "artyluger"
+    item_state = "artyluger"
+    w_class = WEIGHT_CLASS_SMALL
+    mag_type = /obj/item/ammo_box/magazine/luger
+    slowdown = 0.2
+    spread = 0.5
+    force = 30 //it has a fat fucking stock lemme smack a motherfucker with it
+    fire_sound = PISTOLSHOT
+    load_sound = 'sound/combat/ranged/pistol_magin.ogg'
+    eject_sound = 'sound/combat/ranged/pistol_magout.ogg'
+    recoil = 0.05 //stocked pistol
+    semi_auto = TRUE

@@ -548,6 +548,12 @@
 /mob/living/simple_animal/hostile/retaliate/rogue/mirespider,
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
+"fh" = (
+/obj/structure/chair/stool/rogue,
+/obj/effect/landmark/start/municioteknikisto,
+/obj/effect/landmark/start/municioteknikistolate,
+/turf/open/floor/rogue/risvon,
+/area/rogue/indoors/risvonbase)
 "fi" = (
 /obj/structure/mineral_door/wood{
 	lockid = "risvontag";
@@ -610,6 +616,12 @@
 /obj/structure/fluff/walldeco/med4{
 	pixel_x = -32
 	},
+/turf/open/floor/rogue/risvon,
+/area/rogue/indoors/risvonbase)
+"fT" = (
+/obj/structure/chair/stool/rogue,
+/obj/effect/landmark/start/armilteknikisto,
+/obj/effect/landmark/start/armilteknikistolate,
 /turf/open/floor/rogue/risvon,
 /area/rogue/indoors/risvonbase)
 "fX" = (
@@ -870,6 +882,23 @@
 /obj/effect/loretile/bastillexiphos,
 /turf/open/floor/rogue/risvon,
 /area/rogue/indoors/risvonbase)
+"hP" = (
+/obj/structure/table/wood/perserdunsmall,
+/obj/effect/decal/carpet/square{
+	dir = 1
+	},
+/obj/item/ammo_box/handfuls/rattlesnake,
+/obj/item/ammo_box/handfuls/rattlesnake,
+/obj/item/ammo_box/handfuls/shotgun/buckshot,
+/obj/item/ammo_box/handfuls/shotgun/buckshot,
+/obj/item/ammo_box/handfuls/shotgun/buckshot,
+/obj/item/ammo_box/handfuls/shotgun/buckshot,
+/obj/item/ammo_box/handfuls/shotgun,
+/obj/item/ammo_box/handfuls/shotgun,
+/obj/item/ammo_box/handfuls/shotgun,
+/obj/item/ammo_box/handfuls/shotgun,
+/turf/open/floor/rogue/risvon,
+/area/rogue/indoors/risvonbase)
 "hU" = (
 /obj/structure/fluff/walldeco/sad{
 	pixel_y = 32
@@ -971,6 +1000,10 @@
 	},
 /turf/open/floor/rogue/cobble,
 /area/rogue/outdoors/exposed/risvonbase)
+"iQ" = (
+/obj/structure/barbedwire,
+/turf/open/floor/rogue/cobblerock,
+/area/rogue/outdoors/risvon)
 "iR" = (
 /obj/structure/flora/rogueflora/nettles{
 	desc = ""
@@ -996,6 +1029,13 @@
 	},
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
+"jc" = (
+/obj/structure/barbedwire{
+	pixel_x = 1;
+	pixel_y = -3
+	},
+/turf/open/floor/rogue/cobblerock,
+/area/rogue/outdoors/risvon)
 "jf" = (
 /obj/effect/decal/cobbleedge{
 	pixel_y = 25;
@@ -1319,6 +1359,11 @@
 	},
 /turf/open/water/cleanshallow,
 /area/rogue/outdoors/risvon)
+"lO" = (
+/obj/effect/landmark/start/bastiono,
+/obj/effect/landmark/start/bastionolate,
+/turf/open/floor/rogue/risvon,
+/area/rogue/indoors/risvonbase)
 "lQ" = (
 /obj/structure/table/wood/poor,
 /turf/open/floor/carpet/royalblack,
@@ -1671,13 +1716,26 @@
 	},
 /area/rogue/outdoors/risvon)
 "oJ" = (
-/obj/structure/roguemachine/goldface/public/katarina{
-	pixel_y = 12
-	},
 /obj/structure/table/wood/perserdunsmall,
 /obj/effect/decal/carpet/square{
 	dir = 1
 	},
+/obj/item/ammo_box/clip/pistol,
+/obj/item/ammo_box/clip/pistol,
+/obj/item/ammo_box/clip/pistol,
+/obj/item/ammo_box/clip/pistol,
+/obj/item/ammo_box/clip/pistol,
+/obj/item/ammo_box/clip/pistol,
+/obj/item/ammo_box/clip/pistol,
+/obj/item/ammo_box/clip/pistol,
+/obj/item/ammo_box/clip/pistol,
+/obj/item/ammo_box/clip/pistol,
+/obj/item/ammo_box/clip/pistol,
+/obj/item/ammo_box/clip/pistol,
+/obj/item/ammo_box/clip/pistol,
+/obj/item/ammo_box/clip/pistol,
+/obj/item/ammo_box/clip/pistol,
+/obj/item/ammo_box/clip/pistol,
 /turf/open/floor/rogue/risvon,
 /area/rogue/indoors/risvonbase)
 "oO" = (
@@ -2237,12 +2295,9 @@
 /area/rogue/indoors/risvonbasebar)
 "su" = (
 /obj/effect/decal/cobbleedge{
-	dir = 6
-	},
-/obj/effect/decal/cobbleedge{
 	dir = 10
 	},
-/turf/open/floor/rogue/dirt/road,
+/turf/open/floor/rogue/cobblerock,
 /area/rogue/outdoors/risvon)
 "sv" = (
 /obj/effect/decal/carpet/square/black{
@@ -2303,6 +2358,10 @@
 	},
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/risvonbase)
+"ti" = (
+/obj/machinery/light/rogue/firebowl/stump,
+/turf/open/floor/rogue/grassred,
+/area/rogue/outdoors/risvon)
 "tq" = (
 /obj/structure/mannequin/male{
 	layer = 5;
@@ -2313,8 +2372,8 @@
 /obj/item/clothing/head/roguetown/helmet/heavy/ebhelmet,
 /obj/item/clothing/gloves/roguetown/leather/ebgloves,
 /obj/item/clothing/under/roguetown/heavy_leather_pants,
-/obj/item/clothing/suit/roguetown/armor/plate/full/ebarmor,
 /obj/item/clothing/shoes/roguetown/armor/ebboots/wrapped,
+/obj/item/clothing/suit/roguetown/armor/plate/half/iron/ziggurate,
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
 "tr" = (
@@ -2950,6 +3009,10 @@
 	},
 /turf/open/floor/rogue/risvon,
 /area/rogue/indoors/risvonbase)
+"yT" = (
+/mob/living/simple_animal/hostile/retaliate/rogue/bigrat,
+/turf/open/floor/rogue/dirt,
+/area/rogue/outdoors/risvon)
 "yU" = (
 /obj/structure/mineral_door/bars,
 /obj/effect/decal/cleanable/blood/tracks{
@@ -3006,10 +3069,7 @@
 /obj/effect/decal/cobbleedge{
 	dir = 10
 	},
-/obj/effect/decal/cobbleedge{
-	dir = 6
-	},
-/turf/open/floor/rogue/dirt/road,
+/turf/open/floor/rogue/cobble,
 /area/rogue/outdoors/risvon)
 "zy" = (
 /obj/structure/fluff/walldeco/ugly{
@@ -3066,6 +3126,10 @@
 /obj/machinery/light/rogue/wallfire/candle/l,
 /turf/open/floor/rogue/risvon,
 /area/rogue/indoors/risvonbase)
+"zT" = (
+/obj/structure/barbedwire,
+/turf/open/floor/rogue/grassred,
+/area/rogue/outdoors/risvon)
 "zW" = (
 /obj/effect/decal/cobbleedge{
 	pixel_y = 0;
@@ -3759,6 +3823,13 @@
 /obj/structure/fluff/railing/sandbag,
 /turf/open/floor/rogue/metal/barograte,
 /area/rogue/indoors/risvonbase)
+"EQ" = (
+/obj/structure/barbedwire{
+	pixel_x = 1;
+	pixel_y = -3
+	},
+/turf/open/floor/rogue/grassred,
+/area/rogue/outdoors/risvon)
 "ES" = (
 /obj/structure/fluff/walldeco/ubk{
 	pixel_y = -32
@@ -4984,9 +5055,9 @@
 /obj/item/clothing/shoes/roguetown/armor/ebboots/armored,
 /obj/item/clothing/mask/rogue/gasmask/eb_gasmask,
 /obj/item/clothing/gloves/roguetown/leather/ebgloves,
-/obj/item/clothing/suit/roguetown/armor/plate/full/ebarmor,
 /obj/item/clothing/head/roguetown/helmet/heavy/ebhelmet,
 /obj/item/clothing/under/roguetown/heavy_leather_pants,
+/obj/item/clothing/suit/roguetown/armor/plate/half/iron/ziggurate,
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
 "OM" = (
@@ -5472,6 +5543,18 @@
 /obj/structure/fluff/walldeco/leibware{
 	pixel_y = -32
 	},
+/turf/open/floor/rogue/risvon,
+/area/rogue/indoors/risvonbase)
+"RZ" = (
+/obj/structure/closet/crate/roguecloset/dark{
+	pixel_y = 27;
+	lockid = "risvontag"
+	},
+/obj/item/rope/chain,
+/obj/item/rope/chain,
+/obj/item/rope/chain,
+/obj/item/rope/chain,
+/obj/item/rope/chain,
 /turf/open/floor/rogue/risvon,
 /area/rogue/indoors/risvonbase)
 "Sd" = (
@@ -6067,10 +6150,10 @@
 /obj/structure/chair/stool/rogue,
 /obj/item/clothing/head/roguetown/helmet/heavy/ebhelmet/visored,
 /obj/item/clothing/mask/rogue/gasmask/eb_gasmask,
-/obj/item/clothing/suit/roguetown/armor/plate/full/ebarmor/pauldrons,
 /obj/item/clothing/under/roguetown/heavy_leather_pants,
 /obj/item/clothing/gloves/roguetown/leather/ebgloves,
 /obj/item/clothing/shoes/roguetown/armor/ebboots/armored,
+/obj/item/clothing/suit/roguetown/armor/plate/half/iron/ziggurate/pauldrons,
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
 "Xn" = (
@@ -6129,7 +6212,6 @@
 "Xz" = (
 /obj/effect/decal/cleanable/dirt/cobweb,
 /obj/effect/decal/cleanable/dirt/grime/grime3,
-/obj/structure/chair/bench/couchablack,
 /obj/structure/mannequin/male{
 	layer = 5;
 	dir = 2
@@ -6139,7 +6221,7 @@
 /obj/item/clothing/gloves/roguetown/leather/ebgloves,
 /obj/item/clothing/head/roguetown/helmet/heavy/ebhelmet,
 /obj/item/clothing/under/roguetown/heavy_leather_pants,
-/obj/item/clothing/suit/roguetown/armor/plate/full/ebarmor,
+/obj/item/clothing/suit/roguetown/armor/plate/half/iron/ziggurate,
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
 "XB" = (
@@ -6211,6 +6293,20 @@
 /obj/structure/table/wood/perserdunsmall/smallmetal,
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
+"XY" = (
+/obj/structure/table/wood/poor,
+/obj/item/rogueweapon/shovel/small/etool,
+/obj/item/rogueweapon/shovel/small/etool,
+/obj/item/rogueweapon/shovel/small/etool,
+/obj/item/rogueweapon/shovel/small/etool,
+/obj/item/rogueweapon/shovel/small/etool,
+/obj/item/rogueweapon/shovel/small/etool,
+/obj/item/rogueweapon/shovel/small/etool,
+/obj/item/rogueweapon/shovel/small/etool,
+/obj/item/rogueweapon/shovel/small/etool,
+/obj/item/rogueweapon/shovel/small/etool,
+/turf/open/floor/rogue/risvon,
+/area/rogue/indoors/risvonbase)
 "Ya" = (
 /obj/structure/fluff/railing/sandbag{
 	dir = 1;
@@ -6270,6 +6366,10 @@
 /obj/structure/chair/bench/couch,
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/shelter/town/sargoth)
+"YC" = (
+/mob/living/simple_animal/hostile/retaliate/rogue/bigrat,
+/turf/open/floor/rogue/grassred,
+/area/rogue/outdoors/risvon)
 "YL" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/open/floor/rogue/church,
@@ -6286,6 +6386,10 @@
 "YR" = (
 /turf/closed/wall/mineral/rogue/risvon/end/east,
 /area/rogue/indoors/risvonbasebar)
+"YS" = (
+/obj/machinery/light/rogue/firebowl,
+/turf/open/floor/rogue/grassred,
+/area/rogue/outdoors/risvon)
 "YT" = (
 /obj/item/roguebin/crackers{
 	name = "CRACKERS"
@@ -6390,9 +6494,9 @@
 /area/rogue/under/cave/warmachine)
 "ZJ" = (
 /obj/effect/decal/cobbleedge{
-	dir = 2
+	icon_state = "cobbleedge-n"
 	},
-/turf/open/floor/rogue/dirt/road,
+/turf/open/floor/rogue/cobblerock,
 /area/rogue/outdoors/risvon)
 "ZM" = (
 /obj/effect/decal/cleanable/dirt/grime/grime2,
@@ -6403,7 +6507,6 @@
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/exposed/risvonbase)
 "ZO" = (
-/obj/structure/chair/bench/couchablack/r,
 /obj/structure/mannequin/male{
 	layer = 5;
 	dir = 2
@@ -6413,7 +6516,7 @@
 /obj/item/clothing/gloves/roguetown/leather/ebgloves,
 /obj/item/clothing/head/roguetown/helmet/heavy/ebhelmet,
 /obj/item/clothing/under/roguetown/heavy_leather_pants,
-/obj/item/clothing/suit/roguetown/armor/plate/full/ebarmor,
+/obj/item/clothing/suit/roguetown/armor/plate/half/iron/ziggurate,
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
 "ZP" = (
@@ -7646,7 +7749,7 @@ lA
 Tx
 fn
 fn
-dd
+Ba
 AX
 cn
 wu
@@ -7776,7 +7879,7 @@ gm
 Tx
 fn
 fn
-dd
+Ba
 Hj
 cn
 cn
@@ -7906,8 +8009,8 @@ lA
 Tx
 qd
 fn
-dd
-AX
+Ba
+EQ
 Ba
 Ba
 Ba
@@ -8036,8 +8139,8 @@ lA
 Tx
 fn
 fn
-dd
-Hj
+Ba
+zT
 Ba
 Ba
 Ba
@@ -8166,8 +8269,8 @@ xK
 Tx
 Id
 fn
-dd
-AX
+Ba
+EQ
 Ba
 Ba
 Ba
@@ -8296,8 +8399,8 @@ xK
 Tx
 fn
 fn
-dd
-AX
+Ba
+EQ
 Ba
 Ba
 Ba
@@ -8426,11 +8529,11 @@ gm
 Tx
 fn
 fn
-dd
-AX
+Ba
+EQ
 Ba
 Ba
-Ba
+ti
 Ba
 Ba
 Ba
@@ -8556,8 +8659,8 @@ lA
 Tx
 fn
 fn
-dd
-Hj
+Ba
+zT
 Ba
 Ba
 Ba
@@ -8686,8 +8789,8 @@ tW
 Tx
 qd
 fn
-dd
-AX
+Ba
+EQ
 Ba
 Ba
 Ba
@@ -8816,8 +8919,8 @@ HB
 IW
 fn
 fn
-dd
-Hj
+Ba
+zT
 Ba
 Ba
 Ba
@@ -8946,8 +9049,8 @@ uh
 Xv
 fn
 fn
-dd
-AX
+Ba
+EQ
 Ba
 Ba
 Ba
@@ -9076,8 +9179,8 @@ lA
 Kl
 fn
 fn
-dd
-AX
+Ba
+EQ
 Ba
 Ba
 Ba
@@ -9206,13 +9309,13 @@ lA
 Xh
 fn
 fn
-dd
-AX
+KA
+EQ
 Ba
 Ba
 Ba
 Ba
-Ba
+ti
 Ba
 Ba
 Ba
@@ -9336,8 +9439,8 @@ lA
 Xh
 fn
 fn
-dd
-Hj
+KA
+zT
 Ba
 Ba
 Ba
@@ -9466,8 +9569,8 @@ pi
 Xh
 fn
 fn
-dd
-AX
+KA
+jc
 Ba
 Ba
 Ba
@@ -9596,9 +9699,9 @@ sP
 Bs
 qd
 fn
-dd
-Hj
-Ba
+KA
+iQ
+YS
 Ba
 Ba
 Ba
@@ -9725,26 +9828,26 @@ OM
 oj
 JO
 zv
+ok
+ok
+ok
+su
+KA
+KA
+Ba
+Ba
+Ba
+Ba
+Ba
+Ba
+Ba
+Ba
+Ba
+Ba
+Ba
+Ba
+Ba
 dd
-dd
-dd
-dd
-Ba
-Ba
-Ba
-Ba
-Ba
-Ba
-Ba
-Ba
-Ba
-Ba
-Ba
-Ba
-Ba
-Ba
-Ba
-dd
 cn
 wu
 wu
@@ -9773,7 +9876,7 @@ cn
 cn
 Ba
 Ba
-cn
+yT
 cn
 cn
 Ba
@@ -9854,14 +9957,14 @@ OM
 OM
 OM
 OM
+ok
+ok
+ok
+ok
+ok
 ZJ
-dd
-dd
-dd
-dd
-dd
-dd
-dd
+KA
+KA
 Ba
 Ba
 Ba
@@ -9984,15 +10087,15 @@ OM
 OM
 cO
 OM
-su
-dd
-dd
-dd
-dd
-dd
-Ba
-dd
-Ba
+zv
+ok
+KA
+KA
+ok
+ZJ
+KA
+KA
+KA
 Ba
 Ba
 Ba
@@ -10116,13 +10219,13 @@ sP
 Bs
 qd
 fn
-dd
-AX
+KA
+jc
+YS
 Ba
-Ba
-Ba
-dd
-dd
+KA
+KA
+KA
 Ba
 Ba
 Ba
@@ -10246,17 +10349,17 @@ vO
 Xh
 fn
 fn
-dd
-Hj
+KA
+iQ
 Ba
 Ba
 Ba
-dd
-dd
-dd
+KA
+KA
+KA
 Ba
 Ba
-Ba
+ti
 Ba
 Ba
 Ba
@@ -10376,14 +10479,14 @@ lA
 Xh
 fn
 fn
-dd
-AX
+KA
+jc
 Ba
 Ba
 Ba
 Ba
-dd
-dd
+KA
+KA
 Ba
 Ba
 Ba
@@ -10506,14 +10609,14 @@ lA
 Xh
 fn
 fn
-dd
+KA
 Hj
 Ba
 Ba
 Ba
 Ba
-dd
-dd
+KA
+KA
 Ba
 Ba
 Ba
@@ -10636,15 +10739,15 @@ lA
 Xh
 fn
 fn
-dd
-AX
+Ba
+EQ
 Ba
 Ba
 Ba
 Ba
 Ba
-dd
-dd
+KA
+KA
 Ba
 Ba
 Ba
@@ -10766,15 +10869,15 @@ uh
 CS
 fn
 fn
-dd
-AX
+Ba
+EQ
 Ba
 Ba
 Ba
 Ba
 Ba
-dd
-dd
+ok
+KA
 Ba
 Ba
 Ba
@@ -10896,15 +10999,15 @@ HB
 IW
 fn
 fn
+Ba
+EQ
+Ba
+ti
+Ba
+Ba
+Ba
 dd
-AX
-Ba
-Ba
-Ba
-Ba
-Ba
-dd
-dd
+KA
 Ba
 Ba
 Ba
@@ -11026,15 +11129,15 @@ XJ
 Tx
 qd
 fn
-dd
-Hj
+Ba
+zT
 Ba
 Ba
 Ba
 Ba
 Ba
-dd
-dd
+KA
+KA
 dd
 Ba
 Ba
@@ -11156,15 +11259,15 @@ ah
 Tx
 fn
 fn
-dd
-AX
+Ba
+EQ
 Ba
 Ba
 Ba
 Ba
 Ba
-dd
-Ba
+KA
+KA
 dd
 Ba
 Ba
@@ -11286,16 +11389,16 @@ ah
 Tx
 fn
 fn
-dd
-Hj
+Ba
+zT
 Ba
 Ba
 Ba
 Ba
 Ba
 dd
-dd
-dd
+KA
+KA
 Ba
 Ba
 Ba
@@ -11416,19 +11519,19 @@ ah
 Tx
 fn
 fn
-dd
-AX
+Ba
+EQ
 Ba
 Ba
 Ba
 Ba
 Ba
 Ba
-dd
-dd
+KA
+KA
 Ba
 Ba
-Ba
+ti
 Ba
 Ba
 Ba
@@ -11546,8 +11649,8 @@ ah
 Tx
 fn
 fn
-dd
-AX
+Ba
+EQ
 Ba
 Ba
 Ba
@@ -11555,7 +11658,7 @@ Ba
 Ba
 dd
 dd
-dd
+KA
 Ba
 Ba
 Ba
@@ -11676,16 +11779,16 @@ ah
 Tx
 fn
 fn
-dd
-AX
+Ba
+EQ
 Ba
 Ba
 Ba
 Ba
 Ba
 dd
-dd
-dd
+KA
+KA
 Ba
 Ba
 Ba
@@ -11806,16 +11909,16 @@ sP
 IW
 fn
 fn
+Ba
+zT
+Ba
+Ba
+Ba
+Ba
+ti
 dd
-Hj
-Ba
-Ba
-Ba
-Ba
-Ba
-dd
-dd
-dd
+KA
+KA
 Ba
 Ba
 Ba
@@ -11936,16 +12039,16 @@ HB
 IW
 qd
 fn
-dd
-AX
+Ba
+EQ
 Ba
 Ba
 Ba
 Ba
 Ba
 dd
-dd
-dd
+KA
+KA
 dd
 Ba
 Ba
@@ -12066,8 +12169,8 @@ Dm
 Tx
 fn
 fn
-dd
-Hj
+Ba
+zT
 Ba
 Ba
 Ba
@@ -12075,7 +12178,7 @@ Ba
 Ba
 Ba
 dd
-dd
+KA
 dd
 Ba
 Ba
@@ -12196,8 +12299,8 @@ ah
 Tx
 fn
 fn
-dd
-AX
+Ba
+EQ
 Ba
 Ba
 Ba
@@ -12205,7 +12308,7 @@ Ba
 Ba
 Ba
 dd
-dd
+KA
 dd
 Ba
 Ba
@@ -12299,7 +12402,7 @@ ab
 xK
 xK
 Tx
-kW
+RZ
 xK
 Tx
 rc
@@ -12326,21 +12429,21 @@ ah
 Tx
 fn
 fn
+Ba
+zT
+Ba
+Ba
+Ba
+Ba
+Ba
+Ba
+Ba
+KA
+KA
 dd
-Hj
 Ba
 Ba
-Ba
-Ba
-Ba
-Ba
-Ba
-dd
-dd
-dd
-Ba
-Ba
-Ba
+ti
 Ba
 Ba
 Ba
@@ -12456,8 +12559,8 @@ ah
 Tx
 fn
 fn
-dd
-AX
+Ba
+EQ
 Ba
 Ba
 Ba
@@ -12466,7 +12569,7 @@ Ba
 Ba
 dd
 dd
-dd
+KA
 dd
 Ba
 Ba
@@ -12586,8 +12689,8 @@ ah
 Tx
 fn
 fn
-dd
-AX
+Ba
+EQ
 Ba
 Ba
 Ba
@@ -12596,8 +12699,8 @@ Ba
 Ba
 Ba
 dd
-dd
-dd
+KA
+KA
 Ba
 Ba
 Ba
@@ -12716,8 +12819,8 @@ ah
 Tx
 fn
 fn
-dd
-AX
+Ba
+EQ
 Ba
 Ba
 Ba
@@ -12727,7 +12830,7 @@ Ba
 Ba
 dd
 dd
-dd
+KA
 dd
 Ba
 Ba
@@ -12846,19 +12949,19 @@ sP
 IW
 fn
 fn
+Ba
+zT
+Ba
+Ba
+Ba
+Ba
+Ba
+Ba
+ti
+Ba
 dd
-Hj
-Ba
-Ba
-Ba
-Ba
-Ba
-Ba
-Ba
-Ba
-dd
-dd
-dd
+KA
+KA
 Ba
 Ba
 Ba
@@ -12976,8 +13079,8 @@ HB
 tU
 qd
 fn
-dd
-AX
+Ba
+EQ
 Ba
 Ba
 Ba
@@ -12987,8 +13090,8 @@ dd
 dd
 Ba
 dd
-dd
-dd
+KA
+KA
 Ba
 Ba
 Ba
@@ -13106,8 +13209,8 @@ vi
 vi
 fn
 fn
-dd
-Hj
+Ba
+zT
 Ba
 Ba
 Ba
@@ -13118,7 +13221,7 @@ vB
 Ba
 Ba
 dd
-dd
+KA
 dd
 Ba
 Ba
@@ -13235,9 +13338,9 @@ vi
 vi
 vi
 fn
-dd
-dd
-AX
+Ba
+Ba
+EQ
 Ba
 Ba
 Ba
@@ -13248,11 +13351,11 @@ Ba
 dd
 Ba
 dd
-dd
-dd
+KA
+KA
 Ba
 Ba
-Ba
+ti
 Ba
 Ba
 Ba
@@ -13348,7 +13451,7 @@ xK
 xK
 xK
 xK
-xK
+lO
 Tx
 EB
 Qw
@@ -13365,9 +13468,9 @@ vi
 vi
 vi
 nW
-dd
-cn
-AX
+Ba
+Ba
+EQ
 Ba
 Ba
 Ba
@@ -13379,7 +13482,7 @@ Ba
 Ba
 dd
 dd
-dd
+KA
 dd
 Ba
 Ba
@@ -13472,13 +13575,13 @@ xK
 xK
 WW
 Tx
-oJ
+hP
 xK
 xK
 at
 iw
 KM
-xK
+XY
 Tx
 XO
 Qw
@@ -13496,21 +13599,21 @@ wu
 wu
 wu
 wu
-cn
-Ba
-Ba
-Ba
-Ba
-dd
-Ba
 Ba
 Ba
 Ba
 Ba
 Ba
 dd
+Ba
+Ba
+Ba
+Ba
+Ba
+Ba
 dd
-dd
+KA
+KA
 dd
 Ba
 Ba
@@ -13636,11 +13739,11 @@ dd
 Ba
 Ba
 Ba
-Ba
+ti
 Ba
 Ba
 dd
-dd
+KA
 dd
 dd
 Ba
@@ -13770,8 +13873,8 @@ Ba
 Ba
 Ba
 Ba
-dd
-dd
+KA
+KA
 dd
 Ba
 Ba
@@ -13901,8 +14004,8 @@ Ba
 Ba
 Ba
 Ba
-dd
-dd
+KA
+KA
 Ba
 Ba
 cn
@@ -14032,7 +14135,7 @@ Ba
 Ba
 Ba
 dd
-dd
+KA
 dd
 Ba
 cn
@@ -14162,7 +14265,7 @@ Ba
 Ba
 Ba
 Ba
-dd
+KA
 dd
 dd
 cn
@@ -14292,8 +14395,8 @@ Ba
 Ba
 Ba
 Ba
-dd
-dd
+KA
+KA
 Ba
 cn
 cn
@@ -14423,10 +14526,10 @@ Ba
 Ba
 Ba
 Ba
-dd
-Ba
-cn
-cn
+KA
+KA
+KA
+KA
 cn
 cn
 dd
@@ -14554,10 +14657,10 @@ Ba
 Ba
 Ba
 dd
-dd
-dd
-dd
-cn
+KA
+KA
+KA
+KA
 cn
 bQ
 ex
@@ -14685,11 +14788,11 @@ Ba
 Ba
 Ba
 Ba
-cn
-dd
-dd
-cn
-cn
+KA
+KA
+KA
+KA
+KA
 St
 Dq
 gv
@@ -14817,9 +14920,9 @@ Ba
 Ba
 cn
 cn
-dd
-dd
-cn
+KA
+KA
+KA
 ok
 HG
 bb
@@ -15118,7 +15221,7 @@ Ba
 Ba
 Ba
 Ba
-Ba
+YC
 Ba
 Ba
 Ba
@@ -15232,7 +15335,7 @@ wA
 Ba
 Ba
 Ba
-Ba
+YC
 Ba
 Ba
 Ba
@@ -20701,7 +20804,7 @@ cn
 cn
 cn
 cn
-cn
+yT
 cn
 cn
 cn
@@ -30900,7 +31003,7 @@ Mh
 xK
 xK
 xK
-Yk
+fT
 Jd
 ka
 Yk
@@ -31030,7 +31133,7 @@ WO
 xK
 xK
 xK
-Yk
+fh
 aL
 Ld
 Yk

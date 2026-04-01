@@ -62,3 +62,33 @@
 	cost = 40
 	contains = list(/obj/item/ammo_box/clip/reaper,
 	/obj/item/ammo_box/clip/reaper)
+
+/datum/supply_pack/rogue/ammunition/JackalAmmo
+	name = "Jackal Ammo (x2)"
+	cost = 30
+	contains = list(/obj/item/ammo_box/magazine/jackal,
+	/obj/item/ammo_box/magazine/jackal)
+
+/datum/supply_pack/rogue/ammunition/fury
+	name = "Fury Ammo (x2)"
+	cost = 40
+	contains = list(/obj/item/ammo_box/magazine/fury,
+	/obj/item/ammo_box/magazine/fury)
+
+/datum/supply_pack/rogue/ammunition/broomhandle
+	name = "Broomhandle Clips (x2)"
+	cost = 40
+	contains = list(/obj/item/ammo_box/clip/broomhandle,
+	/obj/item/ammo_box/clip/broomhandle)
+
+/datum/supply_pack/rogue/ammunition/luger
+    name = "KRL Ammo (x2)"
+    cost = 30
+    contains = list(/obj/item/ammo_box/magazine/luger,
+    /obj/item/ammo_box/magazine/luger)
+
+/datum/supply_pack/rogue/ammunition/snub
+	name = "Snubnose Speedloaders (x2)"
+	cost = 30
+	contains = list(/obj/item/ammo_box/speedloader/snub,
+	/obj/item/ammo_box/speedloader/snub)

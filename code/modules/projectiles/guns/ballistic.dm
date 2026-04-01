@@ -101,6 +101,11 @@
 	chamber_round()
 	update_icon()
 
+/obj/item/gun/ballistic/examine(mob/user)
+	. = ..()
+	if (magazine && internal_magazine)
+		. += "It has [get_ammo()] [cartridge_wording][get_ammo() == 1 ? "" : "s"] in it."
+
 /obj/item/gun/ballistic/update_icon()
 	if (QDELETED(src))
 		return
@@ -237,6 +242,17 @@
 /obj/item/gun/ballistic/attackby(obj/item/A, mob/user, params)
 	. = ..()
 	if (.)
+		return
+	if (!internal_magazine && istype(A, /obj/item/ammo_box/magazine/hmg))
+		var/obj/item/ammo_box/magazine/hmg/AM = A
+		if (!magazine)
+			insert_magazine(user, AM)
+			process_chamber(user, AM)
+		else
+			if (tac_reloads)
+				eject_magazine(user, FALSE, AM)
+			else
+				to_chat(user, "<span class='notice'>There's already a [magazine_wording] in \the [src].</span>")
 		return
 	if (!internal_magazine && istype(A, /obj/item/ammo_box/magazine))
 		var/obj/item/ammo_box/magazine/AM = A
